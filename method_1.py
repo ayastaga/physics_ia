@@ -1,15 +1,12 @@
 import math
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt  # <-- Fix import (previously incorrect)
-from scipy.signal import find_peaks
+import matplotlib.pyplot as plt
 
 m = 40 # mass of the given trial
 k = 5886 # spring constant
-
-
-numbers = [2]
-masses = [40, 60, 80, 100, 120, 140]
+numbers = [2] # common trial number
+masses = [40, 60, 80, 100, 120, 140] # all masses
 
 for i in numbers:
     for m in masses:
